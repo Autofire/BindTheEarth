@@ -1,0 +1,11 @@
+# Other
+sound ^= (You open|opens) .* door:dooropen1.wav
+sound ^= (You close|closes) .* door:doorclose.wav
+sound ^= (it creaks loudly):yell.wav
+
+sound ^= You slide downwards:fall.wav
+sound ^= You climb (up|down)wards:steps.wav
+
+# For when joining a religion
+sound ^= welcomes you:eb_fanfare.wav
+

@@ -1,0 +1,19 @@
+# Spells
+sound ^= Casting:psi.wav
+sound ^= (resist|resists|appears unharmed):miss.wav
+sound ^= You finish memorising:psilearn.wav
+sound ^= You miscast:strangepsi.wav
+
+## Freezing
+sound ^= You freeze the:freeze1.wav
+sound ^= You freeze the.*!+:freeze2.wav
+
+## Necromancy
+sound ^= (Pain shoots through your body|writhes in agony):breath.wav
+sound ^= You feel life coursing into your body:breath.wav
+sound ^= You attempt to give life to the dead:possess.wav
+sound ^= You call on the dead to rise:possess.wav
+sound ^= submits to your will:hypno.wav
+
+
+

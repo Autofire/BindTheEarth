@@ -2,3 +2,5 @@ force_more_message += You have reached level, skill increases to level
 
 sound_file_path = /home/daniel/Sounds/earthbound/
 include = sounds.txt
+include = spells.txt
+include = other.txt

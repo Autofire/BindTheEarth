@@ -27,24 +27,6 @@ sound ^= i - inventory:
 
 #sound ^= Aim. .*:attack1.wav
 
-# Spells
-sound ^= Casting:psi.wav
-sound ^= (resist|resists|appears unharmed):miss.wav
-sound ^= You finish memorising:psilearn.wav
-sound ^= You miscast:strangepsi.wav
-
-## Freezing
-sound ^= You freeze the:freeze1.wav
-sound ^= You freeze the.*!+:freeze2.wav
-
-## Necromancy
-sound ^= (Pain shoots through your body|writhes in agony):breath.wav
-sound ^= You feel life coursing into your body:breath.wav
-sound ^= You attempt to give life to the dead:possess.wav
-sound ^= You call on the dead to rise:possess.wav
-sound ^= submits to your will:hypno.wav
-
-
 # Items
 sound ^= You now have [0-9]* gold pieces:getitem.wav
 sound ^= [a-zA-Z] - (the|The):itemget2.wav
@@ -73,14 +55,4 @@ sound ^= You die:die.wav
 sound ^= You are (more poisoned|poisoned):ailment.wav
 sound ^= (The|You) (constricts|constrict):ailment.wav
 sound ^= You are no longer poisoned:psi3.wav
-
-# Other
-sound ^= (You open|opens) .* door:dooropen1.wav
-sound ^= (You close|closes) .* door:doorclose.wav
-
-sound ^= You slide downwards:fall.wav
-sound ^= You climb (up|down)wards:steps.wav
-
-sound ^= welcomes you:eb_fanfare.wav
-#sound ^= :
 
