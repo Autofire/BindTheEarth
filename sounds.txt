@@ -12,9 +12,10 @@ sound += [a-zA-Z] - [0-9a]:itemget1.wav
 sound ^= (You|Your) (hit|kick|thump|sock|bite):bash.wav
 sound ^= (You|Your) (hit|kick|thump|sock|bite).* but do no damage:dodge.wav
 sound ^= miss:miss.wav
+
 sound ^= You (kill|destroy):enemydie.wav
 sound ^= (dies|is destroyed):enemydie.wav
-sound ^= crumbles into dust:enemydie.wav
+sound ^= (crumbles into dust|disappears in a puff of smoke):enemydie.wav
 
 sound ^= (hits|kicks|thumps|socks|bites):storm4.wav
 sound ^= (hits|kicks|thumps|socks|bites)? .* but does no damage:dodge.wav
@@ -56,3 +57,4 @@ sound ^= You are (more poisoned|poisoned):ailment.wav
 sound ^= (The|You) (constricts|constrict):ailment.wav
 sound ^= You are no longer poisoned:psi3.wav
 
+sound ^= seem.* to slow down:statsdown.wav

@@ -4,9 +4,16 @@ sound ^= (resist|resists|appears unharmed):miss.wav
 sound ^= You finish memorising:psilearn.wav
 sound ^= You miscast:strangepsi.wav
 
+## Generic
+sound ^= The magic dart hits:enemyhit.wav
+
+## Summoning
+sound ^= A beastly little devil appears:help.wav
+sound ^= A metallic apparition takes form in the air:help.wav
+
 ## Freezing
-sound ^= You freeze the:freeze1.wav
-sound ^= You freeze the.*!+:freeze2.wav
+sound ^= (freeze|puff of frost hits):freeze1.wav
+sound ^= (freeze|puff of frost hits).*!+:freeze2.wav
 
 ## Necromancy
 sound ^= (Pain shoots through your body|writhes in agony):breath.wav

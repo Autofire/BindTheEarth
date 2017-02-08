@@ -1,6 +1,6 @@
 # Other
-sound ^= (You open|opens) .* door:dooropen1.wav
-sound ^= (You close|closes) .* door:doorclose.wav
+sound ^= (You open|opens) .* (door|gate):dooropen1.wav
+sound ^= (You close|closes) .* (door|gate):doorclose.wav
 sound ^= (it creaks loudly):yell.wav
 
 sound ^= You slide downwards:fall.wav
