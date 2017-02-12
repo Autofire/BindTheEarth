@@ -1,9 +1,5 @@
 # ToC: GSM, Attacks, Restore
 
-# General status messages (GSM)
-#sound ^= Welcome back:~/src/anura-trunk/modules/frogatto/sounds_wav/slash.wav
-#sound ^= rumble:~/crawlSounds/wesnoth/rumble.ogg
-
 # Misplaced item thing just because this one is
 # so hard to get right
 sound += [a-zA-Z] - [0-9a]:itemget1.wav
