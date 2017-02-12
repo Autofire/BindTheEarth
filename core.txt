@@ -2,7 +2,6 @@ force_more_message += You have reached level, skill increases to level
 
 
 one_SDL_sound_channel = false
-sound_file_path = /home/daniel/crawlSounds/earthbound/
 include = sounds.txt
 include = spells.txt
 include = other.txt
