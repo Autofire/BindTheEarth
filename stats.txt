@@ -1,0 +1,31 @@
+
+# Stat changes
+sound ^= You have reached level:eb_win.wav
+sound ^= skill increases to level:eb_fanfare.wav
+
+sound ^= better:heal.ogg
+sound ^= much better:heal 1.ogg
+sound ^= HP restored:heal 1.wav
+sound ^= Magic restored:heal 2.wav
+
+# Statuses
+sound ^= You are (more poisoned|poisoned):ailment.wav
+sound ^= (The|You) (constricts|constrict):ailment.wav
+sound ^= You are no longer poisoned:psi3.wav
+
+sound ^= speed up:statsup.wav
+sound ^= slow down:statsdown.wav
+
+sound ^= are exhausted:ailment.wav
+sound ^= less exhausted:psi3.wav
+
+sound ^= The acid corrodes you:ailment.wav
+sound ^= You are no longer corroded:psi3.wav
+
+sound ^= You have turned to stone:ailment.wav
+sound ^= You turn to flesh and can move again:psi3.wav
+
+sound ^= (suddenly stops moving|lose the ability to move):paralysis1.wav
+
+sound ^= you.*(go|goes) berserk:flash1.wav
+

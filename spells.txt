@@ -1,19 +1,22 @@
 # Spells
-sound ^= Casting:psi.wav
-sound ^= (resist|resists|appears unharmed):miss.wav
-sound ^= You finish memorising:psilearn.wav
+sound ^= Casting:
+sound ^= (resist |resists |appears unharmed):miss.wav
+sound ^= MEMORISE_SPELL:psilearn.wav
 sound ^= You miscast:strangepsi.wav
 
 ## Attacks
 sound ^= The magic dart hits:enemyhit.wav
 
 ## Protective
+sound ^= A film of ice covers your body:freeze4.wav
+
 sound ^= protected from missiles:shield2.wav
 sound ^= less protected from missiles:
 
 ## Summoning
 sound ^= A beastly little devil appears:help.wav
 sound ^= A.*apparition takes form in the air:help.wav
+sound ^= A chill wind blows around you:help.wav
 
 ## Freezing
 sound ^= (freeze|puff of frost hits):freeze1.wav

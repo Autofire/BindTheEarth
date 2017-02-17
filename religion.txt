@@ -1,0 +1,14 @@
+
+# Generic actions
+sound ^= welcomes you:eb_newchar.wav
+sound ^= You over a prayer to:pray.wav
+
+sound ^= Beogh smites (you|your):fire1.wav
+
+# Renouncing and wrath
+sound ^= You have lost your religion:ambush.wav
+
+sound ^= Elyvilon blocks your attack:reflect1.wav
+sound ^= Elyvilon heals the:heal 1.wav
+
+sound ^= .* seems mollified:eb_winboss.wav

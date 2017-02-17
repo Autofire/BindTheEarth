@@ -1,0 +1,38 @@
+
+# Misplaced item thing just because this one is
+# so hard to get right
+
+# Override any item noises for targetting prompt
+sound ^= PICKUP:itemget1.wav
+sound ^= [a-zA-Z] - (the|The):itemget2.wav
+sound ^= You now have [0-9]* gold pieces:getitem.wav
+
+## Food
+sound ^= You eat:belch.wav
+sound ^= You eat.*tastes terrible:burp.wav
+
+## Equipment
+
+# Don't let ring-equip prompt play sounds
+#sound ^= or [a-zA-Z] - :
+sound ^= Really put on a [a-zA-Z] - (a|an|the|The) :mysterious.wav
+sound ^= Oops, that.*feels deathly cold:eb_creepy.wav
+
+#sound ^= You finish (taking off|putting on):equip.wav
+#sount ^= You remove your :equip.wav
+#sound ^= [a-zA-Z] - .* \([a-zA-Z]*\):equip.wav
+#sound ^= Quivering [a-zA-Z] - :equip.wav
+#sound ^= Reset throwing quiver to default:equip.wav
+#sound ^= You are now empty-handed:equip.wav
+
+sound ^= (WIELD_WEAPON|WIELD_NOTHING):equip.wav
+sound ^= (EQUIP_ARMOUR|DEQUIP_ARMOUR):equip.wav
+sound ^= (WEAR_JEWELLERY|REMOVE_JEWELLERY):equip.wav
+sound ^= CHANGE_QUIVER:equip.wav
+
+## Shopping
+sound ^= Thank you for shopping at:buy2.wav
+
+## Huge objectives
+sound ^= you pick up the.*rune and feel its power:eb_winboss.wav
+sound ^= You pick up the Orb of Zot:eb_boss.wav

@@ -1,0 +1,22 @@
+sound ^= FIRE_PROMPT_SOUND:attack1.wav
+
+sound ^= (You|Your) (hit|kick|thump|sock|bite|tail-slap|scratch|slash|slice|headbutt|puncture):bash.wav
+sound ^= (hits|kicks|thumps|socks|bites|tail-slaps|scratches|slashes|slices|headbutts|punctures):storm4.wav
+
+sound ^= The helpless.*fails to defend itself:smash.wav
+sound ^= You pounce on the unaware.*:smash.wav
+sound ^= You open.*like a pillowcase
+
+sound ^= .* but do no damage:dodge.wav
+sound ^= miss:miss.wav
+sound ^= is repelled:reflect1.wav
+
+sound ^= You (kill|destroy):enemydie.wav
+sound ^= (dies|is destroyed|falls from the air|vapourises):enemydie.wav
+sound ^= (crumbles into dust|disappears in a puff of smoke):enemydie.wav
+
+sound ^= explodes:storm2.wav
+
+sound ^= LOW HITPOINT WARNING:wound.wav
+sound ^= That really hurt:smaaash.wav
+sound ^= You die:falling.wav

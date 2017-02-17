@@ -1,11 +1,12 @@
 # Other
-sound ^= (You open|opens) .* (door|gate):dooropen1.wav
-sound ^= (You close|closes) .* (door|gate):doorclose.wav
+sound ^= (open|opens) .* (door|gate):dooropen1.wav
+sound ^= (close|closes) .* (door|gate):doorclose.wav
 sound ^= (it creaks loudly):yell.wav
 
+sound ^= A mysterious force pulls you upwards:bubble.wav
 sound ^= You slide downwards:fall.wav
 sound ^= You climb (up|down)wards:steps.wav
 
-# For when joining a religion
-sound ^= welcomes you:eb_fanfare.wav
+sound ^= burst.*into flames:flame.wav
 
+sound ^= You rejoin the land of the living:mbutterfly.wav
