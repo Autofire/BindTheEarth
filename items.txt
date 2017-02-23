@@ -6,10 +6,11 @@
 sound ^= PICKUP:itemget1.wav
 sound ^= [a-zA-Z] - (the|The):itemget2.wav
 sound ^= You now have [0-9]* gold pieces:getitem.wav
+sound ^= You drop:phonehangup.wav
 
 ## Food
-sound ^= You eat:belch.wav
-sound ^= You eat.*tastes terrible:burp.wav
+#sound ^= You eat:belch.wav
+#sound ^= You eat.*tastes terrible:burp.wav
 
 ## Equipment
 

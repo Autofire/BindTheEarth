@@ -4,6 +4,9 @@ sound ^= (resist |resists |appears unharmed):miss.wav
 sound ^= MEMORISE_SPELL:psilearn.wav
 sound ^= You miscast:strangepsi.wav
 
+## Translocations
+sound ^= You blink:window.wav
+
 ## Attacks
 sound ^= The magic dart hits:enemyhit.wav
 
@@ -12,6 +15,9 @@ sound ^= A film of ice covers your body:freeze4.wav
 
 sound ^= protected from missiles:shield2.wav
 sound ^= less protected from missiles:
+
+sound ^= Space distorts slightly along a thin shroud:shield1.wav
+sound ^= shroud bends:reflect2.wav
 
 ## Summoning
 sound ^= A beastly little devil appears:help.wav
