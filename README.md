@@ -1,7 +1,9 @@
 # BindTheEarth
 BindTheEarth (BtE) is a sound pack for [Dungeon Crawl](https://crawl.develz.org/download.htm) Stone Soup that leverages [Earthbound](https://en.wikipedia.org/wiki/EarthBound)'s sound effects.
 
-Before you get started, you'll need to obtain a version of DCSS that supports sound. At the VERY LEAST, you'll need to make sure that your version supports sound (Hit '?V' in game). As of this writing, this depends on a feature in [my own fork](https://github.com/Autofire/crawl). This will hopefully change soon, but until then you MUST have my fork.
+Before you get started, you'll need to obtain a version of DCSS that supports sound. Most new version support it, but not out of the box. You may check whether sound is upported by hitting '?v', which will take you to the version information. If it says something like "Sound Support," then you're good to go! Skip the next paragraph!
+
+If you need to compile Crawl with sound support, you'll first have to be able to compile Crawl (check the Crawl github for that). Once you have the sournce code and you're able to do this, you'll need to edit the sound.h file. Then, with the line that says `//#define SOUND_PLAY_COMMAND "/usr/bin/play -v .5 \"%s\" 2>/dev/null &"`, you'll need to delete the double slashes at the start. Then, on your command line, do `make SOUND=y`, and it should all work fine. Repeat the steps in the paragraph above. It should have worked. (This is all assuming you're not using Tiles. If you are...it ought to support sound out of the box? Maybe do `make TILES=y SOUND=y`?)
 
 To use BtE you will first need to get [the Earthbound sound effects](http://starmen.net/mother2/soundfx/), at the bottom of that page. Download the zip and extract it in a sensible place. (i.e. one without a rediculously long path; I think DCSS has a limit of 256 character-long paths.)
 
@@ -15,3 +17,5 @@ include = BindTheEarth/core.txt
 Where `/path/to/earthbound/sounds/` is the **absolute** path of your sound files. If you're on Windows you may have to change the forward slashes to back slashes. **Note that you must have a slash at the end!**
 
 Now Crawl should make noises! I'm not done with it yet, and I am aware that certain sound effects can get *really* repetitive after a while, depending on your character's background. Feel free to fiddle with stuff as you wish.
+
+(I'm aware that these steps are pretty darn complex for something that's still pretty experimental and may not agree with everyone. I'll have to figure out how to simpilfy things...)
